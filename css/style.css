@@ -186,8 +186,7 @@ header{
 .card {
     width: 31%;
     float: left;
-    box-sizing: border-box;
-    margin-right: 3%;
+    padding-right: 3%;
 }
 .card h2{
     font-weight: 400;
@@ -279,7 +278,7 @@ header{
     width: 100%;
 }
 .card:last-child{
-    margin-right: 0;
+    padding-right: 0;
 }
 /*contact section end*/
 /*footer start*/
