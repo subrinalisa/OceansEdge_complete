@@ -256,6 +256,7 @@ header{
     margin: 0;
 }
 .right img{
+    margin-top: 10px;
     width: 100%;
 }
 .card:last-child{
