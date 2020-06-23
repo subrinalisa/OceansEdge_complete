@@ -122,7 +122,7 @@ header{
     border-right: 1px solid #1A2430;
 }
 .single:last-child{
-    margin-right: 0;
+    padding-right: 0;
     border-right: 0;
 }
 .single:last-child h2{
@@ -250,7 +250,7 @@ header{
 }
 .card_bottom label{
     color: #fff;
-    font-weight: 600
+    font-weight: 600;
 }
 .card_bottom p{
     margin:0;
@@ -304,22 +304,22 @@ footer{
 .portion1 ul li a{
 	display: inline-block;
 	font-size: 14px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding-right: 15px;
-    word-spacing: 7px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding-right: 15px;
+        word-spacing: 7px;
 }
 .portion1 ul li:last-child a{
 	padding-right: 0;
 }
 .portion1 ul li a:hover{
-    color: #0078BD;
+        color: #0078BD;
 }
 .portion1 p{
 	font-size: 14px;
 	color: #fff;
-    line-height: 24px;
+        line-height: 24px;
 }
 
 .portion2 {
