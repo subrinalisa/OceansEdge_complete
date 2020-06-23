@@ -186,7 +186,8 @@ header{
 .card {
     width: 31%;
     float: left;
-    padding-right: 3%;
+    box-sizing: border-box;
+    margin-right: 3%;
 }
 .card h2{
     font-weight: 400;
@@ -216,9 +217,27 @@ header{
     padding-top: 20px;
 }
 /*2nd card*/
+#talkbubble {
+    padding: 20px;
+    background: #0C1019;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 8%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 2px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 24px solid #0C1019;
+}
 .card_top {
     background-color: #0C1019;
-    padding:15px 20px 2px;
 }
 
 .card_top p{
@@ -260,7 +279,7 @@ header{
     width: 100%;
 }
 .card:last-child{
-    padding-right: 0;
+    margin-right: 0;
 }
 /*contact section end*/
 /*footer start*/
