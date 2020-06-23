@@ -208,7 +208,10 @@ header{
     line-height: 23px;
     border-collapse: collapse;
 }
-
+.card th{
+    text-align: left;
+    font-weight: 400;
+}
 .card:first-child{
     padding-top: 40px;
 }
