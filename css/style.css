@@ -13,7 +13,6 @@ header{
     overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    /*border: 1px solid red;*/
 }
 
 .logo {
@@ -174,95 +173,87 @@ header{
 /*contact section start*/
 .contact {
     background-color: #040811;
-    padding: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 25px;
 }
 
 .wrapper2 {
-    overflow: hidden;
     width: 70%;
+    overflow: hidden;
     margin: 0 auto;
 }
 
-.c_content {
+.card {
     width: 31%;
     float: left;
-    padding-right: 3.5%;
-    
+    padding-right: 3%;
 }
-.c_content:last-child{
-    padding-right: 0;
-}
-.c_content:nth-child(2) .c_top{
-    background-color: #0C1019;
-    padding:15px 20px;
-}
-.c_top h2{
+.card h2{
     font-weight: 400;
     font-size: 22px;
     color: #fff;
     margin:0;
 }
-.c_top h2 span{
+.card h2 span{
     font-weight: 600;
     color: #0075B8;
 }
-.c_top p{
+.card p{
     color: #fff;
     line-height: 25px;
 }
-
-.c_bottom{
-    margin-top: 20px;
-}
-.c_bottom table, th, td{
+/*1st card*/
+.card table,th,td{
     color: #fff;
     line-height: 23px;
     border-collapse: collapse;
 }
-.c_bottom th{
-    text-align: left;
-    font-weight: 400;
+
+.card:first-child{
+    padding-top: 40px;
 }
-.c_bottom td{
-    padding-left: 12px;
-}
-.c_bottom label{
-    color: #fff;
-    font-weight: 600;
-    padding-left: 20px;
-}
-.c_bottom p{
-    color: #fff;
-    margin:0;
-    line-height: 24px;
-    padding-left: 20px;
+/*2nd card*/
+.card_top {
+    background-color: #0C1019;
+    padding:15px 20px 2px;
 }
 
-.c_left {
+.card_bottom {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+.card_bottom label{
+    color: #fff;
+    font-weight: 600
+}
+.card_bottom p{
+    margin:0;
+    line-height: 27px;
+}
+/*3rd card*/
+.left {
     width: 40%;
     float: left;
 }
-.c_left img{
+.left img{
     width: 100%;
 }
 
-.c_right {
+.right {
     width: 50%;
     float: right;
 }
-.c_right h2{
-    font-weight: 400;
-    font-size: 22px;
-    color: #fff;
-    margin: 0;
-}
-.c_right h3{
+.right h3{
     font-size: 23px;
     color: #0075B7;
     margin: 0;
 }
-.c_right img{
+.right img{
     width: 100%;
+}
+.card:last-child{
+    padding-right: 0;
 }
 /*contact section end*/
 /*footer start*/
