@@ -126,7 +126,7 @@ header{
     border-right: 0;
 }
 .single:last-child h2{
-    margin-top: 25px;
+    margin-top: 40px;
 }
 .top {
     overflow: hidden;
@@ -282,26 +282,26 @@ header{
 /*contact section end*/
 /*footer start*/
 footer{
-	background-color: #121B2C;
-	padding-top: 30px;
-	padding-bottom: 50px;
+    background-color: #121B2C;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 .portion1 {
-	width: 65%;
-	float: left;
+    width: 65%;
+    float: left;
 }
 .portion1 ul{
-	list-style-type: none;
-	overflow: hidden;
-	margin:0;
-	padding:0;
+     list-style-type: none;
+     overflow: hidden;
+     margin:0;
+     padding:0;
 }
 .portion1 ul li{
-	float: left;
+     float: left;
 }
 .portion1 ul li a{
-	display: inline-block;
-	font-size: 14px;
+    display: inline-block;
+    font-size: 14px;
     color: #fff;
     text-decoration: none;
     text-transform: capitalize;
@@ -309,14 +309,14 @@ footer{
     word-spacing: 7px;
 }
 .portion1 ul li:last-child a{
-	padding-right: 0;
+    padding-right: 0;
 }
 .portion1 ul li a:hover{
     color: #0078BD;
 }
 .portion1 p{
-	font-size: 14px;
-	color: #fff;
+    font-size: 14px;
+    color: #fff;
     line-height: 24px;
 }
 
