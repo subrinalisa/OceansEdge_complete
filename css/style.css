@@ -83,7 +83,7 @@ header{
     margin:0;
 }
 .b_content button{
-    width: 230px;
+    width: 200px;
     height: 50px;
     background-color: #fff;
     font-weight: 700;
@@ -112,7 +112,7 @@ header{
 /*service section start*/
 .service {
     background-color: #121B2C;
-    padding: 40px 0 15px;;
+    padding: 40px 0 15px;
 }
 
 .single {
@@ -126,7 +126,7 @@ header{
     border-right: 0;
 }
 .single:last-child h2{
-    margin-top: 26px;
+    margin-top: 25px;
 }
 .top {
     overflow: hidden;
@@ -218,7 +218,6 @@ header{
 /*2nd card*/
 #talkbubble {
     padding: 20px;
-    background: #0C1019;
     position: relative;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -303,22 +302,22 @@ footer{
 .portion1 ul li a{
 	display: inline-block;
 	font-size: 14px;
-        color: #fff;
-        text-decoration: none;
-        text-transform: capitalize;
-        padding-right: 15px;
-        word-spacing: 7px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-right: 15px;
+    word-spacing: 7px;
 }
 .portion1 ul li:last-child a{
 	padding-right: 0;
 }
 .portion1 ul li a:hover{
-        color: #0078BD;
+    color: #0078BD;
 }
 .portion1 p{
 	font-size: 14px;
 	color: #fff;
-        line-height: 24px;
+    line-height: 24px;
 }
 
 .portion2 {
